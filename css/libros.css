@@ -1,0 +1,57 @@
+
+/*    CSS  SECCION LIBROS    */
+
+.libros__title{
+    color: #131313;
+    font-variant: small-caps;
+    text-shadow: 2px 1px 3px #fff;
+    border-bottom: 1px solid #131313;
+    font-family: dancing;
+    letter-spacing: 3px;
+}
+
+.libros__texto{
+    text-align: justify;
+    text-indent: 1cm;
+}
+
+.libros__texto::first-letter{
+ color: #fff;
+ text-shadow: 2px 1px 3px #131313;
+ font-size: 2.5rem;
+ margin: 0.2rem;
+ font-family: dancing;
+ font-variant: small-caps;
+}
+
+.articulos{
+    /* border: 1px solid red;     */
+    display: inline-block;
+    margin: 0.5em;
+    position: relative; 
+    font-variant: small-caps;   
+}
+
+.articulos:hover{
+    color: gray;
+}
+
+.articulos__img{
+    width: 345px;
+    height:200px;    
+    object-fit: contain;
+    object-position:left; 
+    background-color: white;   
+}
+
+.articulos__img:hover{
+    background-color: #131313;   
+}
+
+.articulos__ul{
+    position: absolute;    
+    top: 45px; 
+    list-style-type: none;  
+    left: 110px;
+    text-align: justify;   
+}

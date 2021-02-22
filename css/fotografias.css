@@ -1,0 +1,98 @@
+
+/*    CSS SECTION ARQUITECTONICA Y MACRO    */
+
+.articulo{
+    /* border: 1px solid blue; */
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em; 
+}
+
+.arquitectonica, .macro{
+    /* border: 1px solid red; */
+   margin-bottom: 20px;
+   padding: 0.5em;
+   background-color: #fff;  
+}
+
+.arquitectonica__title, .macro__title {
+    color: #131313;
+    font-variant: small-caps;
+    text-shadow: 2px 1px 3px #fff;
+    border-bottom: 1px solid #131313;
+    font-family: dancing;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.arquitectonica__subtitle, .table__title{   
+    text-shadow: 2px 1px 3px #fff;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.arquitectonica__texto, .macro__texto{
+    text-align: justify;
+    text-indent: 1cm;
+}
+
+.arquitectonica__texto--letter::first-letter, .macro__texto--letter::first-letter{
+    color: #131313;
+    text-shadow: 2px 1px 3px #fff;
+    font-size: 2.5rem;
+    margin: 0.2rem;
+    font-family: dancing;
+    font-variant: small-caps;
+}
+
+.arquitectonica__img, .macro__img{
+    height: 300px;   
+    padding-bottom: 30px;
+    margin-right: 25px;
+}
+
+.arquitectonica__item{
+    /* border: 1px solid red; */
+    padding:0;
+    margin:0;   
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.arquitectonica__ol{
+    /* border: 1px solid firebrick; */
+    list-style-type: upper-roman;    
+    padding-left: 3em;
+}
+
+
+.table{
+    margin: 20px auto;    
+    font-variant: small-caps;
+    border-collapse: collapse;   
+}
+
+ .table td, .table th{   
+    padding: 0.3em 0.5em;
+}
+
+.table th{
+    background-color: #b83d3d;
+}
+
+.table td:nth-child(2n){
+    background-color: rgba(224, 168, 168, 0.8); 
+}
+
+.table td:nth-child(n):hover{
+    background-color: gray;    
+    color: #fff;
+}
+
+.table td:nth-child(2n+1){
+    background-color: rgba(224, 168, 168, 0.6);
+}
+

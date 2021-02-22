@@ -1,0 +1,118 @@
+/*    CSS SECTION LEFT    */
+
+.left{
+    /* border: 1px solid purple; */    
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2em;
+}
+
+.leftbox{
+    /* border: 1px solid red; */    
+  position: relative;   
+}
+
+.leftbox__img{
+    object-fit:cover;
+    width: 100%;
+    height: 200px; 
+}
+
+.leftbox__enlace{ 
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    text-decoration: none;
+    color: #fff;
+    font-variant: small-caps;
+    letter-spacing: 5px;   
+    width: 95%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-left: 0.5em;
+    padding-left: 0.3em; 
+    font-weight: bold;
+}
+
+.leftbox__enlace:hover{  
+    background-color: rgba(226, 94, 94, 0.8);   
+    color:#131313;
+    border-radius: 3px;
+}
+
+
+/*    CSS SECTION RIGHT    */
+
+.right{
+    /* border: 1px solid pink; */ 
+    width: 56%;
+    display: inline-block;
+    margin: 0 auto;   
+    background-color: #fff; 
+    padding-top: 30px;
+    box-shadow: 3px 7px 10px 0px #131313;
+}
+
+.rightbox{
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+
+.rightbox__video{
+    width: 95%;       
+}
+
+.rightbox__texto{
+    text-align: justify;
+    text-indent: 0.5cm;
+    padding: 5px 10px;
+}
+
+.rightbox__texto--letter::first-letter{
+    color: #131313;
+    text-shadow: 2px 1px 2px #fff;
+    font-size: 2.5rem;
+    margin: 0.2rem;
+    font-family: dancing;
+    font-variant: small-caps;
+   }
+
+
+/*    CSS SECTION SUBSCRIBE    */
+
+.subscribe{
+    /* border: 1px solid teal; */    
+    text-align: center;
+    padding:1em;
+    background-color: rgba(224, 168, 168, 0.6);
+    margin: 1em;
+}
+
+.subscribe__title{
+    border-bottom: 1px solid #131313;
+    font-family: dancing;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    text-shadow: 2px 1px 3px #fff;
+}
+
+.subscribe__form--button{
+    background-color: #b83d3d;
+    color: #fff;
+    font-variant: small-caps;
+    border: 1px solid  #b83d3d;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe__form--button:hover{
+    background-color: #131313;
+    color:  #fff;
+    border: 1px solid #131313;
+}
+

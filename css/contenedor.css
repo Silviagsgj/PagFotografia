@@ -1,0 +1,31 @@
+@font-face{
+    font-family: dancing;
+    src: url("../fonts/DancingScript-Regular.ttf");
+}
+
+@font-face{
+    font-family: dosis;
+    src: url("../fonts/Dosis-Light.ttf");
+}
+
+body{
+    margin: 0;  
+    font-family: dosis;
+    background-image: url("../image/fondo2.jpg");
+    background-repeat: repeat;
+}
+
+.container{  
+    /* border: 1px solid red;     */
+    margin: 0 auto;
+    width: 90%;  
+}
+
+
+.main{
+    /* border: 1px solid brown; */
+    text-align: center;
+    margin-top: 0px;
+    padding: 1em;
+    background-color: #dcdadd55;
+}

@@ -1,0 +1,40 @@
+/*    CSS HEADER    */
+
+.header{
+    /* border: 1px solid blue; */    
+    background-color:#131313;  
+}
+
+.box{
+    /* border: 1px solid forestgreen; */
+    width: 32%;
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+.box__logo{
+     /* border: 1px solid red; */
+    width: 64px;   
+    padding-left: 1em;
+    padding-top: 0.3em;
+    text-align: left;
+}
+
+.box__title{
+    text-align: center;
+    color: #fff;
+    font-family: dancing;    
+    letter-spacing: 3px;
+}
+
+.box__link{ 
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;   
+    margin-left: 60%;   
+}
+
+.box__login{
+    width: 30px; 
+}

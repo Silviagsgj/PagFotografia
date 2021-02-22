@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contenedor.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/sobrenosotros.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    
+        <!--    HEADER    -->
+        <header class="header">
+            <div class="box">
+                <img class="box__logo" src="image/logo3.png" alt="">
+            </div>
+            <div class="box">
+                <h1 class="box__title">A través de la lente</h1>
+            </div>
+            <div class="box">
+                <a class="box__link" href="">Inicia sesion
+                <img class="box__login" src="image/login.png" alt=""></a>
+            </div>
+        </header>
+
+        <!--    NAV    -->
+        <nav class="menu">
+            <ul>                
+                <li class="menu__item"><a class="menu__enlace" href="index.html">Inicio</a></li>
+                <li class="menu__item"><a class="menu__enlace" href="primerospasos.html">Primeros pasos</a></li>
+                <li class="menu__item"><a class="menu__enlace" href="objetivos.html">Objetivos</a></li>
+                <li class="menu__item"><a class="menu__enlace" href="libros.html">Libros</a></li>
+                <li class="menu__item"><a class="menu__enlace" href="fotografias.html">Fotografias</a></li>
+                <li class="menu__item"><a class="menu__enlace" href="edicion.html">Edicion</a></li>
+                <li class="menu__item"><a class="menu__enlace" href="sobrenosotros.html">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+        <!--    CAJA CONTENEDORA    -->
+        <div class="container">
+        <!--    SECTION MAIN    -->
+        <section class="main">
+             <!--    SECTION INFO    -->
+             <section class="info">
+                <h2 class="info__title">Sobre nosotros</h2> 
+                <p class="info__texto info__texto--letter">Todos los secretos de la fotografía en un blog:</p>
+                <div class="infobox">
+                <ul class="infobox__ul">
+                    <li class="infobox__item">Técnicas</li>
+                    <li class="infobox__item">Consejos</li>
+                    <li class="infobox__item">Revelado</li>
+                    <li class="infobox__item">Inspiración</li>
+                </ul>
+            </div>
+                <div class="infobox">
+                <iframe class="infobox__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.36351145209!2d-4.839209285029536!3d39.955624691478064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c717cef78c9%3A0xe80e353d605fae33!2sI.E.S.%20Ribera%20del%20Tajo!5e0!3m2!1ses!2ses!4v1604356345287!5m2!1ses!2ses" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <p class="info__texto">Aqui encontrarás todo lo que necesitas para dominar tu cámara de fotos y empezar a captar increíbles fotografías de manera muy fácil.</p>
+                <a class="info__a" href="mailto:micorreo@gmail.com">Envianos cualquier sugerencia</a>
+            </section>
+
+
+            <!--    SECTION FORM    -->
+            <section class="form">
+                <h2 class="form__title">Contacta con nosotros</h2> 
+                <form action="" method="post">
+                <fieldset class="form__fieldset">
+                    <legend>Datos Personales</legend>
+                    <div class="form__div">
+                    <label class="form__label" for="nom">Nombre:</label>
+                    <input class="form__input" type="text" name="nombre" id="nom" placeholder="nombre" required="required" maxlength="12">
+                    <label class="form__label" for="em">Email:</label>
+                    <input class="form__input" type="email" name="correo" id="em" required="required" placeholder="micorreo@gmail.com">
+                    <label class="form__label" for="fec">Fecha de nacimiento:</label>
+                    <input class="form__input" type="date" name="fecha" id="fec" required="required">
+                </div>
+                    <div class="form__div">
+                    <label class="form__label" for="ape">Apellidos:</label>                 
+                    <input class="form__input" type="text" name="apellidos" id="ape" placeholder="apellidos" required="required" maxlength="25">
+                    <label class="form__label" for="pro">Provincia:</label>
+                    <input class="form__input" type="text" name="provincia" id="pro" placeholder="provincia" required="required">
+                    <label class="form__label" for="sexo">Sexo:</label>
+                    <input  type="radio" name="opcion" id="sexo">Hombre
+                    <input type="radio" name="opcion" id="sexo">Mujer 
+                </div>
+                 
+            
+                   
+                </fieldset>
+               
+                <fieldset class="form__fieldset">
+                    <legend>Tu consulta</legend>
+                <div class="form__div">
+
+                    <select name="tipo">   
+                        <option value="" selected="selected">- selecciona: tipo camara -</option>   
+                        <option value="analogica">Analogica</option>   
+                        <option value="reflex">Reflex</option>  
+                        <option value="evil">Evil</option>   
+                        <option value="compacta">Compacta</option>                  
+                        <option value="otro">Otro</option> 
+                    </select>
+                <label class="form__label" for="sms">Tu mensaje:</label>
+                <textarea class="form__input" name="" id="sms" cols="40" rows="10" placeholder="escribe aqui tu consulta"></textarea>
+            
+               
+                </div>
+            </fieldset>
+
+            <div class="form__div3">
+                <label class="form__label" for="encuesta">Indica como nos conociste:</label>
+                <input type="checkbox" name="opcion1" id="encuesta">Un amigo
+                <input type="checkbox" name="opcion2" id="encuesta">Publicidad
+                <input type="checkbox" name="opcion3" id="encuesta">Redes sociales                
+                <input type="checkbox" name="opcion4" id="encuesta">Otros
+            </div>
+
+                
+
+                <div  class="form__div2">
+                <input class="form__div2--button" type="reset" value="Borrar consulta">
+                <input class="form__div2--button" type="submit" value="Enviar consulta">
+                </div>
+                </form>
+            </section>
+        </section>
+
+       
+    </div>
+
+        <!--    FOOTER    -->
+        <footer class="footer">
+            <div class="boxfooter">
+                <span class="boxfooter__p">2DAW Ribera del Tajo</span>
+            </div>
+       
+            <div class="boxfooter">
+                <h3 class="boxfooter__texto">Siguenos</h3>
+                <div class="boxfooter__redes">
+                    <a href="https://www.instagram.com" target="_blank"><img src="image/ii.png" alt="" class="boxfooter__redes--img"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="image/ff.png" alt="" class="boxfooter__redes--img"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="image/tt.png" alt="" class="boxfooter__redes--img"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="image/youtube.png" alt="" class="boxfooter__redes--img"></a>
+                </div>
+            </div>
+        </footer>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

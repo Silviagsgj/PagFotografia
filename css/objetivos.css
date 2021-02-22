@@ -1,0 +1,98 @@
+
+/*    CSS SECTION UNO    */
+
+.uno{
+    /* border: 1px solid red;     */
+    background-color: #fff;
+    padding: 0.5em;
+    margin-bottom: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.uno__title{    
+    color: #131313;
+    font-variant: small-caps;
+    text-shadow: 2px 1px 3px #fff;
+    border-bottom: 1px solid #131313;
+    font-family: dancing;
+    letter-spacing: 3px;
+}
+
+.uno__texto, .articulo__texto{
+    text-align: justify;    
+    text-indent: 0.5cm;
+      
+}
+
+.uno__texto::first-letter{
+    color: #131313;
+    text-shadow: 2px 1px 2px #fff;
+    font-size: 2.5rem;
+    margin: 0.2rem;
+    font-family: dancing;
+    font-variant: small-caps;
+}
+
+.articulo{
+    /* border: 1px solid green; */
+    width: 44%;
+    display:inline-block;
+    vertical-align: top;   
+    padding-left: 1em;
+    padding-right: 1em;  
+    margin: 0 auto;    
+}
+
+.articulo__title{
+    border-bottom: 1px solid #131313;
+    font-family: dancing;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+.articulo__img{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 80%;        
+}
+
+
+/*    CSS SECTION DOS    */
+
+.dos{
+    /* border: 1px solid red; */
+    padding: 0.5em;
+    margin-bottom: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.table{
+    margin: 20px auto;    
+    font-variant: small-caps;
+    border-collapse: collapse; 
+    caption-side: bottom;  
+}
+
+.table th{
+    background-color: #b83d3d;
+}
+
+.table tr:nth-child(2n){
+    background-color: rgba(224, 168, 168, 0.8); 
+}
+
+.table tr:nth-child(2n+1){
+    background-color: rgba(224, 168, 168, 0.6); 
+}
+
+.table td:nth-child(n):hover{
+    background-color: gray;    
+    color: #fff;
+}
+
+.dos__img{
+    width:60%;
+    margin-top:15px;
+}

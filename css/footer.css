@@ -1,0 +1,28 @@
+/*    CSS FOOTER    */
+
+.footer{   
+    /* border: 1px solid hotpink; */
+    height: 120px;
+    background-color:#131313;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+
+.boxfooter{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.boxfooter__texto{
+    border-bottom: 1px solid #fff;
+}
+
+.boxfooter__redes--img{   
+    margin-right: 10px;
+}
